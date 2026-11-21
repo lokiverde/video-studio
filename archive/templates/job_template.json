@@ -1,0 +1,198 @@
+{
+  "title": "",
+  "product": "",
+  "music": {
+    "beat": 0.604
+  },
+  "end": {
+    "seconds": 2.316,
+    "lines": [
+      "AVAILABLE NOW",
+      "@",
+      "YOURSHOP.COM"
+    ]
+  },
+  "comps": {
+    "example": {
+      "clip": "figure_veo.mp4",
+      "plate": {
+        "src": "kriemhild",
+        "at": 5458.2,
+        "size": [
+          960,
+          720
+        ],
+        "dur": 1.6
+      },
+      "feet": [
+        632,
+        455
+      ],
+      "height": 92,
+      "haze": 0.2
+    }
+  },
+  "shots": [
+    {
+      "id": "herald_wall",
+      "kind": "footage",
+      "src": "siegfried_herald_wall.mp4",
+      "in": 0.2,
+      "dur": 1.208,
+      "focus": 0.03,
+      "logo": {
+        "src": "your_logo.webp",
+        "width": 0.82,
+        "y": 0.27
+      },
+      "accent": "big"
+    },
+    {
+      "id": "fortress_horde",
+      "kind": "footage",
+      "src": "kriemhild_fortress_horde.mp4",
+      "in": 0.3,
+      "dur": 1.208,
+      "focus": 0.5,
+      "logo": {
+        "src": "your_logo.webp",
+        "width": 0.82,
+        "y": 0.27
+      }
+    },
+    {
+      "id": "card_then_came_hero",
+      "kind": "card",
+      "text": "Then came\nthe hero.",
+      "dur": 1.208,
+      "accent": "big"
+    },
+    {
+      "id": "horde_charge",
+      "kind": "footage",
+      "src": "kriemhild_horde_charge.mp4",
+      "in": 0.3,
+      "dur": 1.208,
+      "focus": 0.55,
+      "sfx": [
+        "crowd"
+      ]
+    },
+    {
+      "id": "ladders",
+      "kind": "footage",
+      "src": "kriemhild_ladders.mp4",
+      "in": 0.4,
+      "dur": 0.604,
+      "focus": 0.42,
+      "sfx": [
+        "crowd"
+      ]
+    },
+    {
+      "id": "hall_burning",
+      "kind": "footage",
+      "src": "kriemhild_hall_burning.mp4",
+      "in": 0.3,
+      "dur": 1.208,
+      "focus": 0.5,
+      "sfx": [
+        "fire"
+      ]
+    },
+    {
+      "id": "chad_hero",
+      "kind": "footage",
+      "src": "comp_hero.mp4",
+      "dur": 1.208,
+      "focus": 0.5,
+      "in": 0.1,
+      "dir": "public",
+      "damage": 0.5,
+      "accent": "big"
+    },
+    {
+      "id": "chad_carry",
+      "kind": "footage",
+      "src": "comp_carry.mp4",
+      "dur": 1.208,
+      "focus": 0.5,
+      "in": 0.1,
+      "dir": "public",
+      "damage": 0.5,
+      "hits": [
+        0.604
+      ]
+    },
+    {
+      "id": "chad_walkaway_to_back",
+      "kind": "footage",
+      "src": "comp_walkaway.mp4",
+      "dur": 2.416,
+      "focus": 0.5,
+      "tee": {
+        "src": "tee_back.jpg",
+        "at": 1.0,
+        "fade": 0.4,
+        "width": 0.9,
+        "y": 0.43,
+        "dim": 0.6
+      },
+      "in": 0.1,
+      "dir": "public",
+      "damage": 0.5,
+      "accent": "hit",
+      "hits": [
+        {
+          "at": 1.0,
+          "kind": "big"
+        }
+      ]
+    },
+    {
+      "id": "front_over_fire",
+      "kind": "footage",
+      "src": "kriemhild_hall_burning.mp4",
+      "in": 2.4,
+      "dur": 1.208,
+      "focus": 0.5,
+      "tee": {
+        "src": "tee_front.jpg",
+        "at": 0,
+        "fade": 0.08,
+        "width": 0.9,
+        "y": 0.43,
+        "dim": 0.3
+      },
+      "accent": "hit",
+      "sfx": [
+        "fire"
+      ]
+    },
+    {
+      "id": "end_fire",
+      "kind": "footage",
+      "src": "kriemhild_fire_close.mp4",
+      "in": 0.3,
+      "dur": 2.316,
+      "focus": 0.55,
+      "sfx": [
+        "fire"
+      ]
+    }
+  ],
+  "audio": {
+    "mode": "drums"
+  },
+  "post": {
+    "caption": "",
+    "hashtags": [
+      "yourshop"
+    ],
+    "notes": []
+  },
+  "_notes": [
+    "Copied from Example Tee test 1 (jobs/20260922-213220-test). Durations are multiples of the 0.604 s beat.",
+    "Replace the chad_* shots and comps with this product's hero figure, or drop them for an archive-only reel."
+  ]
+}

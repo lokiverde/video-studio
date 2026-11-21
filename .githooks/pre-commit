@@ -1,0 +1,4 @@
+#!/bin/sh
+# House rule: no em dashes. Checks only the lines this commit adds.
+# Turn on once per clone: git config core.hooksPath .githooks
+exec python3 "$(git rev-parse --show-toplevel)/scripts/check_em_dash.py" --staged

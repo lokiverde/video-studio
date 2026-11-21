@@ -1,0 +1,70 @@
+{
+  "name": "Palm Springs",
+  "label": "Palm Springs",
+  "map": {
+    "osm": "cache/osm.json",
+    "attribution": "Map data © OpenStreetMap contributors",
+    "wide_width_m": 14000,
+    "close_width_m": 2200
+  },
+  "pois": [
+    {
+      "name": "Downtown Palm Springs",
+      "lat": 33.8231,
+      "lon": -116.5468
+    },
+    {
+      "name": "Palm Springs Art Museum",
+      "lat": 33.8242,
+      "lon": -116.5499
+    },
+    {
+      "name": "Palm Springs Airport",
+      "lat": 33.8304,
+      "lon": -116.5085
+    },
+    {
+      "name": "Aerial Tramway",
+      "lat": 33.8368,
+      "lon": -116.6141
+    }
+  ],
+  "distance_tags": [
+    {
+      "kind": "poi",
+      "name": "Downtown Palm Springs",
+      "label": "Downtown Palm Springs"
+    },
+    {
+      "kind": "poi",
+      "name": "Palm Springs Art Museum",
+      "label": "Palm Springs Art Museum"
+    },
+    {
+      "kind": "poi",
+      "name": "Palm Springs Airport",
+      "label": "Palm Springs Airport"
+    },
+    {
+      "kind": "poi",
+      "name": "Aerial Tramway",
+      "label": "Palm Springs Aerial Tramway"
+    }
+  ],
+  "clips": [],
+  "stills": [],
+  "montage": [],
+  "map_tour": {
+    "landscape": [
+      "Downtown Palm Springs",
+      "Palm Springs Art Museum",
+      "Palm Springs Airport",
+      "Palm Springs Aerial Tramway"
+    ],
+    "portrait": [
+      "Downtown Palm Springs",
+      "Palm Springs Airport",
+      "Palm Springs Aerial Tramway"
+    ]
+  }
+}

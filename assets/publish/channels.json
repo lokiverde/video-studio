@@ -1,0 +1,222 @@
+{
+  "timezone": "America/Los_Angeles",
+  "slots": [
+    "09:00",
+    "12:00"
+  ],
+  "urgent_slot": "15:00",
+  "min_lead_minutes": 10,
+  "linkedin_daily": "me_linkedin",
+  "channels": {
+    "me_tiktok": {
+      "label": "Tony TikTok",
+      "platform": "tiktok",
+      "accountId": "90001"
+    },
+    "me_youtube": {
+      "label": "Tony YouTube",
+      "platform": "youtube",
+      "accountId": "90002"
+    },
+    "me_linkedin": {
+      "label": "Tony LI",
+      "platform": "linkedin",
+      "accountId": "90003"
+    },
+    "me_x": {
+      "label": "Tony X",
+      "platform": "twitter",
+      "accountId": "90004"
+    },
+    "biz_instagram": {
+      "label": "Biz IG",
+      "platform": "instagram",
+      "accountId": "90005"
+    },
+    "biz_facebook": {
+      "label": "Biz FB",
+      "platform": "facebook",
+      "accountId": "90006",
+      "pageId": "900000000000001"
+    },
+    "biz_x": {
+      "label": "Biz X",
+      "platform": "twitter",
+      "accountId": "90007"
+    },
+    "biz_tiktok": {
+      "label": "Biz TikTok",
+      "platform": "tiktok",
+      "accountId": "90008"
+    },
+    "brand_youtube": {
+      "label": "Brand YouTube",
+      "platform": "youtube",
+      "accountId": "90009"
+    },
+    "training_youtube": {
+      "label": "Training YouTube",
+      "platform": "youtube",
+      "accountId": "90010"
+    },
+    "brand_linkedin": {
+      "label": "Brand LI page",
+      "platform": "linkedin",
+      "accountId": "90003",
+      "pageId": "9000001"
+    },
+    "partner_linkedin": {
+      "label": "Partner LI",
+      "platform": "linkedin",
+      "accountId": "90011"
+    }
+  },
+  "lanes": {
+    "tech": {
+      "label": "TechTony",
+      "channels": [
+        "me_tiktok",
+        "me_youtube",
+        "me_linkedin",
+        "me_x"
+      ],
+      "footer_key": "TECHTONY_FOOTER",
+      "footer_default": "Tech Tony | AI for operators, not engineers | techtony.co",
+      "dre": false,
+      "scoreboard": "TechTony",
+      "stagger": {
+        "09:00": {
+          "me_linkedin": "08:00",
+          "me_x": "10:00",
+          "me_youtube": "13:00",
+          "me_tiktok": "18:00"
+        },
+        "12:00": {
+          "me_x": "13:00",
+          "me_youtube": "16:00",
+          "me_tiktok": "21:00"
+        }
+      }
+    },
+    "realestate": {
+      "label": "Example Realty",
+      "channels": [
+        "biz_instagram",
+        "biz_facebook",
+        "biz_x",
+        "biz_tiktok",
+        "brand_youtube",
+        "me_linkedin"
+      ],
+      "optional": [
+        "partner_linkedin"
+      ],
+      "footer_key": "YOUTUBE_FOOTER",
+      "footer_default": "",
+      "dre": true,
+      "scoreboard": "ExampleRealty",
+      "stagger": {
+        "09:00": {
+          "me_linkedin": "08:00",
+          "partner_linkedin": "08:30",
+          "biz_facebook": "09:00",
+          "biz_x": "10:30",
+          "biz_instagram": "11:30",
+          "brand_youtube": "15:00",
+          "biz_tiktok": "19:00"
+        },
+        "12:00": {
+          "partner_linkedin": "12:30",
+          "biz_facebook": "12:00",
+          "biz_x": "13:30",
+          "biz_instagram": "14:30",
+          "brand_youtube": "18:00",
+          "biz_tiktok": "21:00"
+        }
+      }
+    },
+    "training": {
+      "label": "Example Realty Training",
+      "channels": [
+        "training_youtube",
+        "brand_linkedin",
+        "biz_tiktok"
+      ],
+      "optional": [
+        "partner_linkedin"
+      ],
+      "footer_key": "TRAINING_FOOTER",
+      "footer_default": "Example Realty Agent Training | Learn more: brokerage.example",
+      "dre": true,
+      "full_linkedin": false,
+      "scoreboard": "ExampleRealtyTraining",
+      "stagger": {
+        "09:00": {
+          "brand_linkedin": "09:15",
+          "partner_linkedin": "10:00",
+          "training_youtube": "16:00",
+          "biz_tiktok": "19:30"
+        },
+        "12:00": {
+          "brand_linkedin": "12:15",
+          "partner_linkedin": "12:45",
+          "training_youtube": "17:30",
+          "biz_tiktok": "21:30"
+        }
+      }
+    }
+  },
+  "signers": {
+    "tony": {
+      "label": "Tony",
+      "footer_key": "YOUTUBE_FOOTER",
+      "footer_default": "",
+      "dre": "00000001"
+    },
+    "partner": {
+      "label": "Partner",
+      "footer_key": "PARTNER_FOOTER",
+      "footer_default": "Pat Partner, Broker, CA DRE 00000002 | Example Realty, Corp DRE 00000003 | brokerage.example",
+      "dre": "00000002",
+      "linkedin": "partner_linkedin",
+      "never": [
+        "me_linkedin"
+      ],
+      "voice_never": [
+        "tony"
+      ]
+    }
+  },
+  "marks": {
+    "TECH TONY": "tech",
+    "EXAMPLE REALTY": "realestate",
+    "EXAMPLE REALTY TRAINING": "training"
+  },
+  "limits": {
+    "twitter": {
+      "max_seconds": 140,
+      "max_chars": 280
+    },
+    "youtube": {
+      "max_seconds": 180,
+      "max_title": 100,
+      "max_chars": 5000
+    },
+    "tiktok": {
+      "max_seconds": 600,
+      "max_chars": 2200
+    },
+    "instagram": {
+      "max_seconds": 900,
+      "max_chars": 2200
+    },
+    "facebook": {
+      "max_seconds": 900,
+      "max_chars": 8000
+    },
+    "linkedin": {
+      "max_seconds": 1800,
+      "max_chars": 3000
+    }
+  }
+}

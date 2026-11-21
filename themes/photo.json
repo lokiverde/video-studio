@@ -1,0 +1,15 @@
+{
+  "name": "photo",
+  "description": "Editorial photorealistic stills, documentary tone.",
+  "style_prefix": "editorial photograph, documentary style, natural light, shallow depth of field, 35mm lens, centered subject, muted professional color grade",
+  "style_suffix": "no text, no letters, no words, no watermark, no logos",
+  "character_desc": "",
+  "voice": "stock",
+  "caption_style": {
+    "size": 64,
+    "text": "#ffffff",
+    "bg": "#000000",
+    "bg_opacity": 0.55
+  },
+  "music": ""
+}

@@ -1,0 +1,8 @@
+{
+  "name": "curly-tenant",
+  "display_name": "Curly the Tenant",
+  "description": "Recurring supporting character: a tenant. Same design language as Stick Man but with curly black hair. Used for renter roles. Debuted in the Argentina rent control video.",
+  "prompt_desc": "a cartoon stick figure person with a large round pure white outlined head, curly black hair, and a thin black stick body",
+  "reference_phrase": "the tenant character",
+  "lora": null
+}

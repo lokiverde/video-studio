@@ -1,0 +1,26 @@
+{
+  "name": "army",
+  "description": "Army format: insider countdown shorts on a Brokerage navy canvas. Photoreal cinematic pictures in light-blue frames, trading-card list items, giant type behind a cut-out subject, agenda builds, tile flowcharts and full-frame punch words in white and light blue. Both cuts. Format spec: docs/army.md",
+  "style_prefix": "cinematic photograph, dramatic low-key lighting, cool blue and teal color grade, deep shadows, crisp detail, shallow depth of field, 35mm film look",
+  "style_suffix": "no text, no letters, no words, no watermark, no logos",
+  "character_desc": "",
+  "voice": "am_onyx",
+  "pacing": "cuts",
+  "narration_tempo": 1.05,
+  "end_hold": 2.5,
+  "caption_style": {
+    "size": 60,
+    "text": "#ffffff",
+    "bg": "#1d3557",
+    "bg_opacity": 0.9
+  },
+  "music": "",
+  "army_style": {
+    "bg": "#1d3557",
+    "bg_deep": "#00121f",
+    "text": "#ffffff",
+    "accent": "#29a8d6",
+    "accent_hi": "#9fe3fb",
+    "dim": "#3d6380"
+  }
+}

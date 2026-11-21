@@ -1,0 +1,18 @@
+{
+  "name": "swordfish",
+  "description": "Stickman Swordfish: the Habit Lantern \"Why Don't We...?\" curiosity documentary (docs/swordfish.md). Drawn Stick Man cast in costume in flat doodle scenes, doodle graphics on white (icon cards with a red X or green check and a hand-lettered label, pairs, chains, cycles, bar and line charts, meters, punch words), date tags and a disclaimer note. Long-form 16:9 with no burned captions and a slow drift on every cut; the 9:16 cut keeps captions for Shorts.",
+  "style_prefix": "simple flat 2D doodle cartoon illustration, clean thick black ink outlines, flat muted colours, minimal detail, plain uncluttered composition, friendly educational explainer drawing",
+  "style_suffix": "no text, no letters, no words, no numbers, no logos, no watermark",
+  "character": "stick-man",
+  "voice": "stock",
+  "pacing": "drift",
+  "graphics": "doodle",
+  "captions": "portrait",
+  "caption_style": {
+    "size": 62,
+    "text": "#151515",
+    "bg": "#ffffff",
+    "bg_opacity": 0.92
+  },
+  "music": ""
+}

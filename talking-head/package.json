@@ -1,0 +1,14 @@
+{
+  "name": "talking-head",
+  "private": true,
+  "description": "Remotion template for the talking-head wrapper format. Driven by a job props file, see scripts/th.py.",
+  "dependencies": {
+    "@remotion/cli": "^4.0.526",
+    "@remotion/media-utils": "^4.0.526",
+    "@types/react": "^19.3.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.526",
+    "typescript": "^7.0.2"
+  }
+}

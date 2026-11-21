@@ -1,0 +1,13 @@
+[Unit]
+Description=Chatterbox TTS worker (loopback, proxied by tim-media)
+After=network.target
+
+[Service]
+Environment=CUDA_VISIBLE_DEVICES=
+WorkingDirectory=%h/tim-media
+ExecStart=%h/chatterbox-venv/bin/uvicorn chatterbox_worker:app --host 127.0.0.1 --port 8791
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

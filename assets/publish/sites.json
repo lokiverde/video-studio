@@ -1,0 +1,183 @@
+{
+  "clones": "~/.faceless-video/sites",
+  "git_user": {
+    "name": "YOUR_GITHUB_USER",
+    "email": "you@example.com"
+  },
+  "repos": {
+    "my-sites": {
+      "remote": "https://github.com/YOUR_GITHUB_USER/my-sites.git",
+      "lockfile": "pnpm-lock.yaml",
+      "install": [
+        "pnpm",
+        "install",
+        "--frozen-lockfile"
+      ],
+      "after_write": [
+        [
+          "pnpm",
+          "feed:build"
+        ]
+      ],
+      "build": [
+        "pnpm",
+        "turbo",
+        "build",
+        "--filter={app}"
+      ],
+      "indexnow": [
+        "node",
+        "scripts/indexnow.mjs",
+        "{url}"
+      ],
+      "library": "packages/ui/src/video-library.ts",
+      "generated": {
+        "apps/examplerealty/src/app/news/network-feed.ts": "examplerealty"
+      }
+    },
+    "tech-site": {
+      "remote": "https://github.com/YOUR_GITHUB_USER/tech-site.git",
+      "lockfile": "package-lock.json",
+      "install": [
+        "npm",
+        "ci",
+        "--no-audit",
+        "--no-fund"
+      ],
+      "after_write": [],
+      "build": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "indexnow": [
+        "node",
+        "scripts/indexnow.mjs",
+        "{url}"
+      ],
+      "generated": {}
+    }
+  },
+  "sites": {
+    "siteone": {
+      "repo": "my-sites",
+      "app": "siteone",
+      "format": "hm",
+      "label": "siteone.com",
+      "posts": "apps/siteone/src/app/news/posts-data.ts",
+      "url": "https://www.siteone.com/news/{slug}",
+      "default_category": "Market",
+      "video_before": "excerpt",
+      "aliases": [
+        "siteone.com",
+        "siteone"
+      ]
+    },
+    "sitetwo": {
+      "repo": "my-sites",
+      "app": "sitetwo",
+      "format": "hm",
+      "label": "sitetwo.com",
+      "posts": "apps/sitetwo/src/app/news/posts-data.ts",
+      "url": "https://sitetwo.com/news/{slug}",
+      "default_category": "Rent Control",
+      "video_before": "excerpt",
+      "hub": {
+        "category": "Rent Control",
+        "url": "https://sitetwo.com/news/topic-hub"
+      },
+      "aliases": [
+        "sitetwo.com",
+        "sitetwo"
+      ]
+    },
+    "sitethree": {
+      "repo": "my-sites",
+      "app": "sitethree",
+      "format": "hm",
+      "label": "sitethree.com",
+      "posts": "apps/sitethree/src/app/blog/posts-data.ts",
+      "url": "https://sitethree.com/blog/{slug}",
+      "default_category": "Boards",
+      "video_before": "excerpt",
+      "author": "Tony Self",
+      "aliases": [
+        "sitethree.com",
+        "sitethree"
+      ]
+    },
+    "examplerealty": {
+      "repo": "my-sites",
+      "app": "examplerealty",
+      "format": "hm",
+      "label": "brokerage.example",
+      "posts": "apps/examplerealty/src/app/news/posts-data.ts",
+      "url": "https://brokerage.example/news/{slug}",
+      "default_category": "Education",
+      "video_before": "excerpt",
+      "aliases": [
+        "brokerage.example",
+        "examplerealty"
+      ]
+    },
+    "techtony": {
+      "repo": "tech-site",
+      "app": "tech-site",
+      "format": "techtony",
+      "label": "techtony.co",
+      "posts": "src/lib/blog-data.ts",
+      "url": "https://www.techtony.co/blog/{slug}",
+      "default_category": "How To",
+      "video_before": "content",
+      "image_dir": "public/images/blog",
+      "image_url": "/images/blog/{slug}.jpg",
+      "aliases": [
+        "techtony.co",
+        "techtony"
+      ]
+    }
+  },
+  "lane_site": {
+    "tech": "techtony",
+    "training": "examplerealty"
+  },
+  "lane_category": {
+    "training": "Agent Training"
+  },
+  "topics": {
+    "sitetwo": [
+      "landlord",
+      "landlords",
+      "tenant",
+      "tenants",
+      "rent control",
+      "rental",
+      "rentals",
+      "renter",
+      "renters",
+      "eviction",
+      "evictions",
+      "lease",
+      "leases",
+      "just cause",
+      "ab 1482",
+      "property management"
+    ],
+    "sitethree": [
+      "hoa",
+      "hoas",
+      "townhome",
+      "townhomes",
+      "condo",
+      "condos",
+      "cc&r",
+      "cc&rs",
+      "reserve",
+      "reserves",
+      "board",
+      "boards",
+      "mini-hoa"
+    ]
+  },
+  "topic_default": "siteone"
+}

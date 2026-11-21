@@ -1,0 +1,17 @@
+{
+  "name": "truth-teller",
+  "description": "Stick Man as the cynical industry truth-teller. Polished toon look, quick cuts, fast deadpan read, punchy yellow-on-black captions. Every script opens with \"Here's the deal...\". Persona spec: docs/truth-teller.md",
+  "style_prefix": "flat 2D vector cartoon style, thick clean black outlines, solid flat colors, minimalist composition, comedic explainer animation still",
+  "style_suffix": "no text, no letters, no numbers, no logos, no watermark",
+  "character": "stick-man",
+  "voice": "am_onyx",
+  "pacing": "cuts",
+  "caption_style": {
+    "size": 72,
+    "text": "#ffd60a",
+    "bg": "#0b0b0d",
+    "bg_opacity": 0.88
+  },
+  "music": "",
+  "narration_tempo": 1.12
+}

@@ -1,0 +1,16 @@
+{
+  "name": "toon-explainer",
+  "description": "Flat 2D vector cartoon explainer. All characters: large round pure white head with clean black outline, colored hair, dark red mouth interior, thin black stick body. Hero has short spiky brown hair. Quick-cut pacing.",
+  "style_prefix": "flat 2D vector cartoon style, thick clean black outlines, solid flat colors, minimalist composition, comedic explainer animation still",
+  "style_suffix": "no text, no letters, no numbers, no logos, no watermark",
+  "character": "stick-man",
+  "voice": "stock",
+  "pacing": "cuts",
+  "caption_style": {
+    "size": 68,
+    "text": "#ffffff",
+    "bg": "#1c1145",
+    "bg_opacity": 0.82
+  },
+  "music": ""
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Carson",
+  "label": "North Carson",
+  "map": {
+    "osm": "cache/osm.json",
+    "attribution": "Map data © OpenStreetMap contributors",
+    "wide_width_m": 14000,
+    "close_width_m": 2200
+  },
+  "pois": [
+    {
+      "name": "SouthBay Pavilion",
+      "lat": 33.843955,
+      "lon": -118.261199
+    },
+    {
+      "name": "Dignity Health Sports Park",
+      "lat": 33.864239,
+      "lon": -118.261079
+    },
+    {
+      "name": "Cal State Dominguez Hills",
+      "lat": 33.863371,
+      "lon": -118.257378
+    }
+  ],
+  "distance_tags": [
+    {
+      "kind": "poi",
+      "name": "SouthBay Pavilion",
+      "label": "SouthBay Pavilion"
+    },
+    {
+      "kind": "poi",
+      "name": "Dignity Health Sports Park",
+      "label": "Dignity Health Sports Park"
+    },
+    {
+      "kind": "poi",
+      "name": "Cal State Dominguez Hills",
+      "label": "Cal State Dominguez Hills",
+      "overview": false
+    },
+    {
+      "kind": "road_ref",
+      "ref": "I 405",
+      "label": "405 Freeway"
+    }
+  ],
+  "clips": [],
+  "stills": [],
+  "montage": [],
+  "map_tour": {
+    "landscape": [
+      "SouthBay Pavilion",
+      "Dignity Health Sports Park",
+      "Cal State Dominguez Hills",
+      "405 Freeway"
+    ],
+    "portrait": [
+      "SouthBay Pavilion",
+      "Dignity Health Sports Park",
+      "405 Freeway"
+    ]
+  }
+}

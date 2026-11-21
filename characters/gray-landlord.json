@@ -1,0 +1,8 @@
+{
+  "name": "gray-landlord",
+  "display_name": "Gray the Landlord",
+  "description": "Recurring supporting character: an older landlord. Same design language as Stick Man (round pure white outlined head, black stick body) but with neat gray hair. Used for housing-provider roles. Debuted in the Argentina rent control video.",
+  "prompt_desc": "a cartoon stick figure old man with a large round pure white outlined head, neat gray hair, and a thin black stick body",
+  "reference_phrase": "the landlord character",
+  "lora": null
+}

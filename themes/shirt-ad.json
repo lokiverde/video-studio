@@ -1,0 +1,17 @@
+{
+  "name": "shirt-ad",
+  "description": "YourShop silent product ads for Instagram/TikTok, 9:16 only. Modeled on a reference ad: vintage screen-print horror in bone-cream, blood red and black, NO narration, music plus sfx carry the sound, short punchy captions carry the copy, ends on a product card. Format spec: docs/shop-ad-format.md",
+  "style_prefix": "vintage screen print poster illustration, bold woodcut linework with halftone texture shading, limited palette of bone cream off-white, blood red and pitch black, aged paper grain, retro dark americana horror, clean flat composition",
+  "style_suffix": "no text, no letters, no numbers, no logos, no watermark",
+  "character": "skeleton-ghoul",
+  "pacing": "kenburns",
+  "portrait_only": true,
+  "caption_style": {
+    "size": 52,
+    "text": "#f2ead8",
+    "bg": "#0a0a0a",
+    "bg_opacity": 0.55
+  },
+  "music": "dark-ambient-necromancer.mp3",
+  "end_hold": 0
+}

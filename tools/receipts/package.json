@@ -1,0 +1,9 @@
+{
+  "name": "fv-receipts",
+  "private": true,
+  "type": "module",
+  "description": "Board style receipts: real comment screenshots, names and avatars blurred, quote box measured",
+  "dependencies": {
+    "playwright-core": "1.48.2"
+  }
+}

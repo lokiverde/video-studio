@@ -1,0 +1,13 @@
+{
+  "name": "stick-man",
+  "display_name": "Stick Man",
+  "description": "The main recurring hero of the toon-explainer videos. A stick figure man with a round pure white head (black outline) about the size of his torso, short spiky chestnut brown hair, black oval eyes with expressive eyebrows, a short neck, and a thin black stick body with stick arms and legs ending in small white gloved hands. Head size was reduced from the original oversized version on 2026-08-12 at Tony's direction.",
+  "prompt_desc": "He has a round pure white head roughly the size of his torso with a black outline, short spiky chestnut brown hair, black oval eyes with expressive eyebrows, a short neck joining the head to the body, a thin black stick body, and thin black stick arms and legs with small white gloved hands",
+  "reference_phrase": "the main character",
+  "reference": {
+    "file": "stickman_ref_v3.png",
+    "strength": 0.2,
+    "mode": "attn_bias",
+    "note": "v3 model sheet, adopted 2026-08-12. Two things changed from v1: the head came down to roughly torso size at Tony's direction, and a neck was added. v1 had an enormous head sitting directly on the torso with NO joint, and Redux copied that faithfully, so any pose other than standing straight rendered as a floating head with merged or extra hands and no front/behind layering. Validated on the four shots that actually failed in the videos (kneeling on a roof, lifting an AC unit into a window, charging a car in a garage, walking past a building): all four structurally clean. GOTCHA: asking for a smaller head WITHOUT explicitly banning ears, nose and skin tone gets you a normal cartoon human every time. Five of twelve candidates reverted that way. Keep 'blank white face, no ears, no nose, no skin tone' in any future model sheet prompt."
+  }
+}

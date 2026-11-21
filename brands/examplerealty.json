@@ -1,0 +1,104 @@
+{
+  "_doc": "Example brand for the listing-video skill (lv.py loads brands/<name>.json; examplerealty is the default name). Replace the contacts, logos, fonts and music with your own. Logos and the team photo are not included: drop your own files at these paths.",
+  "name": "Example Realty",
+  "colors": {
+    "navy": "#1d3557",
+    "cyan": "#29a8d6",
+    "white": "#ffffff",
+    "soft": "#c9d6e2"
+  },
+  "fonts": {
+    "bold": "assets/fonts/DejaVuSans-Bold.ttf",
+    "semibold": "assets/fonts/DejaVuSans-Bold.ttf",
+    "regular": "assets/fonts/DejaVuSans-Bold.ttf",
+    "light": "assets/fonts/DejaVuSans-Bold.ttf"
+  },
+  "logo_white": "assets/brand/examplerealty/logo-white.png",
+  "logo_blue": "assets/brand/examplerealty/logo-blue.png",
+  "team_photo": "assets/brand/examplerealty/team.jpg",
+  "placard": {
+    "headline": "Contact Your Team",
+    "contacts": [
+      {
+        "name": "Agent One",
+        "title": "Broker Associate",
+        "phone": "555-555-0101",
+        "dre": "00000000"
+      },
+      {
+        "name": "Agent Two",
+        "title": "Broker Owner",
+        "phone": "555-555-0102",
+        "dre": "00000000"
+      }
+    ],
+    "site": "example.com",
+    "office": "Example Realty",
+    "office_dre": "00000000",
+    "fine_print": "Equal Housing Opportunity"
+  },
+  "music": {
+    "listing-warm": {
+      "bpm": 96,
+      "offset": 0.02,
+      "feel": "warm acoustic, the default"
+    },
+    "listing-modern": {
+      "bpm": 110,
+      "offset": 0.15,
+      "feel": "modern upbeat"
+    },
+    "listing-luxury": {
+      "bpm": 83,
+      "offset": 0.35,
+      "feel": "cinematic piano"
+    }
+  },
+  "default_music": "listing-warm",
+  "cuts": {
+    "landscape": {
+      "size": [
+        1920,
+        1080
+      ],
+      "target_seconds": 75,
+      "open_beats": 8,
+      "card_seconds": 5.5
+    },
+    "portrait": {
+      "size": [
+        1080,
+        1920
+      ],
+      "target_seconds": 30,
+      "open_beats": 6,
+      "card_seconds": 4.5
+    }
+  },
+  "motion": {
+    "zoom": 1.09,
+    "pan_travel": 0.55,
+    "crossfade": 0.4,
+    "fade_in": 0.5,
+    "fade_out": 1.0
+  },
+  "loudness": -14,
+  "pop": {
+    "landscape": {
+      "target_seconds": 72,
+      "map_beats": 8,
+      "clip_beats": 2,
+      "open_beats": 8,
+      "card_seconds": 5.5,
+      "tour_beats": 4
+    },
+    "portrait": {
+      "target_seconds": 33,
+      "map_beats": 6,
+      "clip_beats": 2,
+      "open_beats": 8,
+      "card_seconds": 4.5,
+      "tour_beats": 3
+    }
+  }
+}

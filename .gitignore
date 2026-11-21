@@ -1,0 +1,34 @@
+config.env
+jobs/
+/jobs
+/jobs.internal-*
+work/
+out/
+__pycache__/
+*.pyc
+.DS_Store
+
+talking-head/node_modules/
+talking-head/out/
+
+# archive reel: big public-domain source media stays local (re-pull per SKILL.md)
+archive/films/
+archive/music/
+archive/clips/
+archive/scan/
+deliverables/
+
+# city b-roll libraries: Tony's own footage stays local, manifests (city.json) are tracked
+assets/cities/*/media/
+assets/cities/*/cache/
+assets/models/
+# thumbnail pose library: Tony's face cutouts stay local like his footage (README tracked)
+assets/faces/*.png
+
+# receipts capture tool deps
+tools/receipts/node_modules/
+
+# Swift tools build themselves from scripts/*.swift on first use
+bin/facedetect
+bin/bodytrack
+bin/mouthdetect

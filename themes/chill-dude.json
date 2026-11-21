@@ -1,0 +1,23 @@
+{
+  "name": "chill-dude",
+  "description": "Chill Dude countdown list videos. Stick Man acts out each item on simple flat hand-drawn backgrounds, white number cards count down between items, icon speech bubbles and props carry the gags, relaxed conversational read. Format spec: docs/chill-dude.md",
+  "style_prefix": "very simple flat 2D cartoon background drawn in a basic paint program, big plain areas of solid flat color, thick wobbly black outlines, minimal detail, few objects, childlike simple shapes, no shading, no gradients",
+  "style_suffix": "no text, no letters, no numbers, no logos, no watermark",
+  "character": "stick-man",
+  "voice": "am_michael",
+  "pacing": "cuts",
+  "caption_style": {
+    "size": 60,
+    "text": "#ffffff",
+    "bg": "#111111",
+    "bg_opacity": 0.78
+  },
+  "music": "",
+  "narration_tempo": 1.0,
+  "end_hold": 2.5,
+  "card_style": {
+    "bg": "#ffffff",
+    "text": "#111111",
+    "title": "#55555c"
+  }
+}

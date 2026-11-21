@@ -1,0 +1,15 @@
+{
+  "name": "landlord-explainer",
+  "description": "NotebookLM-style whiteboard explainer. Stick figures act out each scene.",
+  "style_prefix": "minimalist hand-drawn whiteboard illustration, black marker line art on clean white paper, simple stick figures with expressive round heads, centered balanced composition filling the frame, editorial explainer cartoon, subtle single accent color highlights",
+  "style_suffix": "no text, no letters, no words, no numbers, no watermark",
+  "character_desc": "a recurring friendly stick figure landlord wearing a small flat cap, slightly rounder head than other figures",
+  "voice": "stock",
+  "caption_style": {
+    "size": 64,
+    "text": "#1a1a1a",
+    "bg": "#ffffff",
+    "bg_opacity": 0.72
+  },
+  "music": ""
+}

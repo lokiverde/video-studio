@@ -1,0 +1,60 @@
+{
+  "name": "Redondo Beach",
+  "label": "South Redondo Beach",
+  "map": {
+    "osm": "cache/osm.json",
+    "attribution": "Map data © OpenStreetMap contributors",
+    "wide_width_m": 13000,
+    "close_width_m": 1500
+  },
+  "pois": [
+    {
+      "name": "Redondo Beach Pier",
+      "short": "the Pier",
+      "lat": 33.8397279,
+      "lon": -118.392663
+    },
+    {
+      "name": "Riviera Village",
+      "short": "Riviera Village",
+      "lat": 33.8176749,
+      "lon": -118.3866412
+    },
+    {
+      "name": "Veterans Park",
+      "short": "Veterans Park",
+      "lat": 33.8374364,
+      "lon": -118.3893478
+    },
+    {
+      "name": "King Harbor",
+      "short": "King Harbor",
+      "lat": 33.8455864,
+      "lon": -118.3991382
+    }
+  ],
+  "distance_tags": [
+    {
+      "kind": "coastline",
+      "label": "The beach"
+    },
+    {
+      "kind": "road",
+      "name": "Esplanade",
+      "label": "The Esplanade"
+    },
+    {
+      "kind": "poi",
+      "name": "Riviera Village",
+      "label": "Riviera Village"
+    },
+    {
+      "kind": "poi",
+      "name": "Redondo Beach Pier",
+      "label": "The Pier"
+    }
+  ],
+  "clips": [],
+  "stills": [],
+  "montage": []
+}

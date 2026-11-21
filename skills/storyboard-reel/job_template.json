@@ -1,0 +1,194 @@
+{
+  "title": "",
+  "length": 28.6,
+  "product": {},
+  "storyboard": [],
+  "vhs": 0.5,
+  "plate": {
+    "src": "",
+    "model": "flux",
+    "prompt": "digital landscape, glowing violet wireframe grid floor stretching to the horizon, low poly wireframe mountains in the distance, deep purple and black night sky, faint stars, retro synthwave 3D render, wide empty flat floor in the foreground"
+  },
+  "figures": {
+    "back": {
+      "src": "",
+      "feet": {}
+    },
+    "front": {
+      "src": "",
+      "feet": {}
+    },
+    "raised": {
+      "src": "",
+      "feet": {}
+    }
+  },
+  "shots": [
+    {
+      "id": "logo",
+      "kind": "logo",
+      "dur": 3.2,
+      "src": "assets/brand/your_logo.webp",
+      "panel": 1
+    },
+    {
+      "id": "black",
+      "kind": "black",
+      "dur": 1.0,
+      "panel": 2
+    },
+    {
+      "id": "back",
+      "kind": "dolly",
+      "dur": 5.0,
+      "figure": "back",
+      "panel": 3
+    },
+    {
+      "id": "front",
+      "kind": "pose",
+      "dur": 1.5,
+      "figure": "front",
+      "panel": 4
+    },
+    {
+      "id": "raise",
+      "kind": "clip",
+      "dur": "clip",
+      "clip": "work/kling/raise_30.mp4",
+      "from": "front",
+      "to": "raised",
+      "panel": 5,
+      "prompt": "A low poly 3D <figure: who, what he wears> stands facing the camera on <the plate>. Static locked-off camera. In one single slow, continuous upward movement he <the move, start pose to end pose>. The <prop> stays upright the whole time: it never swings sideways, never tilts down and never touches the ground. His body, feet and robe stay in place. Calm, deliberate, ceremonial. Background completely still. Flat shaded low poly game style. No lightning, no sparks, no camera movement."
+    },
+    {
+      "id": "glow",
+      "kind": "glow",
+      "dur": "fill",
+      "figure": "raised",
+      "panel": 5
+    },
+    {
+      "id": "white",
+      "kind": "white",
+      "dur": 0.7,
+      "panel": 6
+    },
+    {
+      "id": "shirt",
+      "kind": "shirt",
+      "dur": 6.3,
+      "src": "",
+      "panel": 7
+    },
+    {
+      "id": "card",
+      "kind": "card",
+      "dur": 3.0,
+      "mockup": "",
+      "panel": 8
+    }
+  ],
+  "audio": {
+    "music": "",
+    "prompt": "<genre and mood from the design> instrumental, <BPM> BPM, cinematic. Opens with one massive hit that rings out for 3 seconds (the logo), then near silence. At 4 seconds a slow brooding pulse begins (the dolly). At <clip start> seconds a tense rising build (the clip and the glow). At <white-out> seconds a huge impact hit and the full track drops (the shirt). Ends with one final massive hit at <card start + 0.4> seconds that rings out and fades to silence.",
+    "music_gain": -2,
+    "fade_out": 1.4,
+    "sfx": [
+      {
+        "src": "assets/sfx/kit/impact.mp3",
+        "shot": "logo",
+        "offset": 0.12,
+        "gain": -3
+      },
+      {
+        "src": "assets/sfx/kit/whoosh.mp3",
+        "shot": "front",
+        "offset": -0.2,
+        "gain": -6
+      },
+      {
+        "src": "assets/sfx/orb-charge.mp3",
+        "shot": "raise",
+        "offset": 2.2,
+        "gain": -2
+      },
+      {
+        "src": "assets/sfx/kit/impact.mp3",
+        "shot": "white",
+        "offset": -0.3,
+        "gain": -2
+      },
+      {
+        "src": "assets/sfx/kit/impact.mp3",
+        "shot": "card",
+        "offset": 0.0,
+        "gain": -3
+      }
+    ]
+  },
+  "post": {
+    "caption": "<one deadpan line about the move, then: <Product>, available now.>",
+    "cover": {
+      "note": "<what the cover frame shows, e.g. the orb at full glow>"
+    },
+    "notes": [
+      "Soundtrack: ElevenLabs generated bed plus kit sfx, no licensed music. Safe for business accounts.",
+      "<how the figure was made: renders cut out on a FLUX plate (Tim), the move animated with Kling 3.0 on OpenArt (start and end frame), VHS overlay at 50%>"
+    ],
+    "instagram": {
+      "cover_text": "<3 WORDS, CAPS>",
+      "caption": "<hook line>\n\n<what the design is, printed where. $price. sizes. N colors. Link in bio.>\n\n<a color question>",
+      "hashtags": [
+        "<product tag>",
+        "darkapparel",
+        "graphictee"
+      ],
+      "pin": "Which color are you running? <colors>.",
+      "notes": [
+        "Post as a Reel with \"Also share to feed\" on, and pick `cover.jpg` as the cover.",
+        "The music is baked in, so IG files it as original audio. Rename it to `SHOP // <NAME>.EXE` so anyone who reuses the sound carries the name.",
+        "Caption links don't click on IG, which is why the caption says \"Link in bio\". The block's URL is there for the brand look."
+      ]
+    },
+    "tiktok": {
+      "on_screen": "<4 to 5 lowercase words that promise the payoff>",
+      "caption": "<hook, lowercase>\n\n<product>. $price. sizes. n colors. link in bio.",
+      "hashtags": [
+        "<product tag>",
+        "darkapparel"
+      ],
+      "pin": "which color are you running: <colors, lowercase>",
+      "notes": [
+        "Rename \"original sound\" to `SHOP // <NAME>.EXE`.",
+        "Reply to the first comments fast, with short deadpan answers (\"he does this every drop\"). Video replies to good comments are cheap extra posts.",
+        "If the bio link isn't live yet, the URL in the block is the only way in. Leave it."
+      ]
+    },
+    "youtube": {
+      "title": "<title case, tells the story in one line>",
+      "description": "<Product> by Shop. <the design in one line>. $price, sizes, N colors at yourshop.com.",
+      "hashtags": [
+        "shorts",
+        "<product tag>",
+        "darkapparel"
+      ],
+      "pin": "Which color are you running? <colors>.",
+      "notes": [
+        "Links in Shorts descriptions and comments don't click, so the URL stays as plain text.",
+        "Add it to a \"Shop drops\" playlist so the next drop's Short feeds viewers into this one."
+      ]
+    },
+    "facebook": {
+      "caption": "<short hook>\n\nThe <Product> just dropped. <the design>. $price, sizes, in <colors>.\n\n<a question>",
+      "notes": [
+        "Facebook links do click, so drop the product link in the first comment: <product url>",
+        "Skip \"tag a friend\" lines on Facebook: it treats them as engagement bait and pushes the post down."
+      ]
+    },
+    "hooks": [
+      "<3 or 4 alternative first lines>"
+    ],
+    "order": "TikTok first, then Instagram, Shorts and Facebook the same day. Answer the comments in the first hour on each one. When a hook outperforms, use it on the next drop."
+  }
+}

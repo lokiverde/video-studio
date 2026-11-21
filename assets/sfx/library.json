@@ -1,0 +1,9 @@
+{
+  "_note": "Owned SFX library (ElevenLabs-generated 2026-08-05, one-time). Reference by name in a scene's 'sfx' field. Use sparingly: hook, reveals, payoff. Never recreate these; add new ones here only when a video genuinely needs a sound that does not exist yet.",
+  "whoosh": "punchy cartoon swish. Scene transitions, fast reveals, the hook.",
+  "pop": "single comedic bubble pop. Small reveals, items appearing.",
+  "slam": "heavy comedic thud/stamp. Verdicts, laws passing, dramatic beats.",
+  "ding": "bright success chime. Wins, correct answers, payoff moments.",
+  "click-type": "mouse click + keyboard burst. Search/computer scenes.",
+  "paper-rip": "quick paper tear. Repeals, cancellations, contracts dying."
+}

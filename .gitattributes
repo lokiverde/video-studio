@@ -1,0 +1,8 @@
+# Keep LF line endings on every OS (Windows clones otherwise get CRLF in scripts and fixtures).
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.ttf binary
+*.otf binary
+*.webp binary

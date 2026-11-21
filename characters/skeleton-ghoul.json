@@ -1,0 +1,8 @@
+{
+  "name": "skeleton-ghoul",
+  "display_name": "Skeleton Ghoul",
+  "description": "A skeleton mascot. Drawn in gritty crosshatch ink style, not the standard stick-figure language: a lanky cartoon skeleton ghoul with a wide sardonic grin, hollow eye sockets with tiny white pupils, wearing a plain black t-shirt. Brand palette red/black/white. Deadpan, macabre humor. For product drops and dark-comedy content.",
+  "prompt_desc": "He is a lanky cartoon skeleton ghoul with a wide sardonic toothy grin, hollow black eye sockets with tiny white pupils, drawn in gritty crosshatched ink linework, wearing a plain black t-shirt",
+  "reference_phrase": "the main character",
+  "lora": null
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Torrance",
+  "label": "Torrance",
+  "map": {
+    "osm": "cache/osm.json",
+    "attribution": "Map data © OpenStreetMap contributors",
+    "wide_width_m": 9000,
+    "close_width_m": 2200
+  },
+  "pois": [
+    {
+      "name": "Torrance Park",
+      "lat": 33.822293,
+      "lon": -118.317065
+    },
+    {
+      "name": "Wilson Park",
+      "lat": 33.825673,
+      "lon": -118.323856
+    },
+    {
+      "name": "Del Amo Fashion Center",
+      "lat": 33.830241,
+      "lon": -118.349962
+    },
+    {
+      "name": "Old Torrance",
+      "lat": 33.833967,
+      "lon": -118.317242
+    }
+  ],
+  "distance_tags": [
+    {
+      "kind": "poi",
+      "name": "Torrance Park",
+      "label": "Torrance Park"
+    },
+    {
+      "kind": "poi",
+      "name": "Wilson Park",
+      "label": "Wilson Park"
+    },
+    {
+      "kind": "poi",
+      "name": "Del Amo Fashion Center",
+      "label": "Del Amo Fashion Center"
+    },
+    {
+      "kind": "poi",
+      "name": "Old Torrance",
+      "label": "Old Torrance",
+      "overview": false
+    },
+    {
+      "kind": "road_ref",
+      "ref": "I 405",
+      "label": "405 Freeway"
+    }
+  ],
+  "clips": [],
+  "stills": [],
+  "montage": [],
+  "map_tour": {
+    "landscape": [
+      "Torrance Park",
+      "Wilson Park",
+      "Del Amo Fashion Center",
+      "Old Torrance"
+    ],
+    "portrait": [
+      "Torrance Park",
+      "Del Amo Fashion Center",
+      "Old Torrance"
+    ]
+  }
+}
